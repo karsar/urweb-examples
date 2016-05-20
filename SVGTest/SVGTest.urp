@@ -1,0 +1,7 @@
+html5
+rewrite url SVGTest/main
+ffi SVG
+
+$/list
+$/string
+SVGTest
