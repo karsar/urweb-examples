@@ -268,7 +268,7 @@ fun timeLoop image s=
     timeLoop image s
 
 fun check_alert t =
-    if t>40.0 then return <xml><h1>Temperature Monitor</h1><div style="color:red">"Temperature is too big!"</div></xml>
+    if t>40.0 then return <xml><h1>Temperature Monitor</h1><div style="color:red">"Temperature is out of safe zone!"</div></xml>
        else return <xml><h1>Temperature Monitor</h1>Everything is OK! Last was <strong>{[t]}</strong></xml>
     
 fun main () = s <- source 0.0;
